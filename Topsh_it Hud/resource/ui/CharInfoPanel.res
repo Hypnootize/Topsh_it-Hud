@@ -118,15 +118,16 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"33"
+			"ypos"			"36"
 			"zpos"			"7"
 			"wide"			"f0"
 			"tall"			"2"
@@ -143,7 +144,7 @@
 		{
 			"textinsetx"		"40"
 			"textinsety"		"-4"
-			"font"				"OpenSansLight40"
+			"font"				"OpenSansLight20"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"48 48 48 255"
