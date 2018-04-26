@@ -182,7 +182,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +190,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -205,7 +203,7 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"OpenSansLight30"
+			"font"			"OpenSansLight20"
 			"fgcolor_override"	"TanDark"
 			"textAlignment"	"north-east"
 			"labelText"		"%name%"
@@ -216,38 +214,86 @@
 				"xpos"			"65"
 				"ypos"			"5"
 				"wide"			"f0"
-				"visible"	"0"
+				"visible"		"0"
 				"font"			"HudFontSmallishBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"23"
+			"ypos"			"18"
 			"wide"			"150"
 			"zpos"			"100"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"OpenSansLight30"
+			"font"			"OpenSansLight20"
 			"fgcolor_override"	"TanDark"
 			"textAlignment"	"north-east"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"			"67"
+				"ypos"			"4"
 				"wide"			"f0"
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"OpenSansLight20"
+				"1"		"OpenSansLight20"
+				"2"		"OpenSansLight20"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"35"
+			"wide"			"150"
+			"zpos"			"100"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"OpenSansLight20"
+			"fgcolor_override"	"TanDark"
+			"textAlignment"	"north-east"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"			"67"
+				"ypos"			"4"
+				"wide"			"f0"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"OpenSansLight20"
+				"1"		"OpenSansLight20"
+				"2"		"OpenSansLight20"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanDark"
 			}
 		}
 
