@@ -22,7 +22,8 @@
 		
 		if_match
 		{
-			"xpos"				"15"
+			"xpos"			"8"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
@@ -43,8 +44,7 @@
 			
 			if_match
 			{
-				"font"			"OpenSansSemiBold12"
-				"ypos"			"2"
+				"font"		"OpenSansSemiBold12"
 			}
 		}	
 	}
@@ -70,7 +70,8 @@
 		
 		if_match
 		{
-			"xpos"				"35"
+			"xpos"			"42"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
@@ -99,7 +100,6 @@
 			if_match
 			{
 				"font"			"OpenSansSemiBold12"
-				"ypos"			"2"
 			}
 		}	
 	}
@@ -112,9 +112,7 @@
 		"ypos"				"9999"
 		"zpos"				"1"
 		"wide"				"78"
-		"wide_minmode"		"37"
 		"tall"				"33"
-		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	
