@@ -97,8 +97,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}
 	"ScoreMain"
@@ -117,6 +116,10 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"ScoreBluBack"
 	{
@@ -134,6 +137,10 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"OmniBlu"
 		"PaintBackgroundType"	"0"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"ScoreRedBack"
 	{
@@ -151,6 +158,10 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"OmniRed"
 		"PaintBackgroundType"	"0"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamLabel"
 	{
@@ -520,7 +531,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"ClassImage"
@@ -541,7 +552,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -566,7 +577,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}							
 	"HorizontalLine"
@@ -592,7 +603,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"Horizontal"
@@ -614,7 +625,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -660,6 +671,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 		
 
@@ -679,7 +695,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"wide"		"0"
 		}
 
 		"KillsLabel"
@@ -1714,8 +1730,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"

@@ -1,12 +1,7 @@
 # Topsh_it-Hud
-Screenshots: https://imgur.com/a/KtKEH
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/KtKEH)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 255
-
-hud_combattext_green 255
-
-hud_combattext_blue 0
+![](https://i.imgur.com/RllkPxi.jpg)
